@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="shortcut icon"
+            href="public/assets/favicon.svg"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script src="index.js"></script>
+        <title>Darif El Mehdi</title>
+    </head>
+    <body>
+        <!-- NavBar -->
+        <nav class="nav">
+            <a href="#" class="logo"> &#60;darif&#47;&#62; </a>
+            <ul class="nav-list">
+                <li><a href="#skills" class="nav-item">Skills</a></li>
+                <li><a href="#projects" class="nav-item">Projects</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+            <ul
+                class="w-full py-4 top-20 absolute flex-col items-center bg-primary bg-opacity-50 z-50 hidden"
+                id="nav-list"
+            >
+                <li class="my-4">
+                    <a href="#skills" class="nav-item">Skills</a>
+                </li>
+                <li class="my-4">
+                    <a href="#projects" class="nav-item">Projects</a>
+                </li>
+                <li class="my-4">
+                    <a href="#contact" class="nav-item">Contact</a>
+                </li>
+            </ul>
+            <img
+                loading="lazy"
+                src="public/assets/menu.svg"
+                alt="menu"
+                class="menu block"
+                id="menu"
+            />
+            <img
+                loading="lazy"
+                src="public/assets/x-menu.svg"
+                alt="x-menu"
+                class="x-menu hidden"
+                id="x-menu"
+            />
+        </nav>
+
+        <!--Hero Section-->
+        <div class="hero">
+            <div class="hero-info">
+                <h1 class="info-name">Darif El Mehdi</h1>
+                <h1 class="info-job">FULL STACK DEVELOPER</h1>
+                <p class="info-description">
+                    Hello! I am a software engineer with a degree from ENSIAS in
+                    2021, and I am a Full Stack Javascript developer. I
+                    implement user interface design and resolve user issues with
+                    HTML, CSS and Javascript.I have enough experience to
+                    manufacture products that resolve user problems and
+                    implement a responsive website.
+                </p>
+                <a href="#contact" class="contact-me">Contact me</a>
+            </div>
+            <div class="pic-container">
+                <img
+                    loading="lazy"
+                    src="public/assets/profile.png"
+                    alt="Profile Pic"
+                    class="profile-pic"
+                />
+                <div class="blure"></div>
+            </div>
+        </div>
+
+        <!-- Skills section-->
+
+        <div class="skills-section" id="skills">
+            <h1 class="section-title">Skills</h1>
+            <div class="skills">
+                <div class="skill">
+                    <img
+                        loading="lazy"
+                        src="public/assets/skills/html.png"
+                        class="skill-logo"
+                        alt="html"
+                    />
+                    <h1 class="skill-name">HTML</h1>
+                </div>
+                <div class="skill">
+                    <img
+                        loading="lazy"
+                        src="public/assets/skills/css-logo.png"
+                        class="skill-logo"
+                        alt="css"
+                    />
+                    <h1 class="skill-name">CSS</h1>
+                </div>
+                <div class="skill">
+                    <img
+                        loading="lazy"
+                        src="public/assets/skills/javascript.png"
+                        class="skill-logo"
+                        alt="javaxcript"
+                    />
+                    <h1 class="skill-name">JAVASCRIPT</h1>
+                </div>
+                <div class="skill">
+                    <img
+                        loading="lazy"
+                        src="public/assets/skills/react.png"
+                        class="skill-logo"
+                        alt="react"
+                    />
+                    <h1 class="skill-name">REACT</h1>
+                </div>
+                <div class="skill">
+                    <img
+                        loading="lazy"
+                        src="public/assets/skills/node-js.png"
+                        class="skill-logo"
+                        alt="node"
+                    />
+                    <h1 class="skill-name">NODE.JS</h1>
+                </div>
+                <div class="skill">
+                    <img
+                        loading="lazy"
+                        src="public/assets/skills/tailwind-css.png"
+                        class="skill-logo"
+                        alt="tailwindcss"
+                    />
+                    <h1 class="skill-name">TAILWIND-CSS</h1>
+                </div>
+                <div class="skill">
+                    <img
+                        loading="lazy"
+                        src="public/assets/skills/bootstrap.png"
+                        class="skill-logo"
+                        alt="bootstrap"
+                    />
+                    <h1 class="skill-name">BOOTSTRAP</h1>
+                </div>
+                <div class="skill">
+                    <img
+                        loading="lazy"
+                        src="public/assets/skills/python.png"
+                        class="skill-logo"
+                        alt="python"
+                    />
+                    <h1 class="skill-name">PYTHON</h1>
+                </div>
+                <div class="skill">
+                    <img
+                        loading="lazy"
+                        src="public/assets/skills/java.png"
+                        class="skill-logo"
+                        alt="java"
+                    />
+                    <h1 class="skill-name">JAVA</h1>
+                </div>
+                <div class="skill">
+                    <img
+                        loading="lazy"
+                        src="public/assets/skills/git.png"
+                        class="skill-logo"
+                        alt="java"
+                    />
+                    <h1 class="skill-name">GIT</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects section-->
+        <div class="projects-section" id="projects">
+            <h1 class="section-title">Projects</h1>
+            <!--Quran-->
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img
+                        loading="lazy"
+                        src="public/assets/dots.svg"
+                        alt="Menu"
+                        class="dots"
+                    />
+                    <input type="checkbox" class="checkbox peer" />
+                    <img
+                        loading="lazy"
+                        src="public/assets/projects/Group 5.png"
+                        alt="Project Image"
+                        class="project-img"
+                    />
+                    <div class="hover peer-checked:z-20">
+                        <a
+                            href="https://quran-live.netlify.app/"
+                            target="_blank"
+                            class="live-site"
+                            >View demo</a
+                        >
+                        <a
+                            href="https://github.com/DarifElmehdi/quran"
+                            target="_blank"
+                            class="github-repo"
+                            >View github repo</a
+                        >
+                    </div>
+                    <h1 class="project-title">Quran</h1>
+                    <div class="project-techs">
+                        <p class="project-tech">REACT</p>
+                        <p class="project-tech">HTML</p>
+
+                        <p class="project-tech">TAILWIND</p>
+                        <p class="project-tech">NODE.JS</p>
+                    </div>
+                </div>
+                <!-- YESPRINT -->
+                <div class="project-card">
+                    <img
+                        loading="lazy"
+                        src="public/assets/dots.svg"
+                        alt="Menu"
+                        class="dots"
+                    />
+                    <input type="checkbox" class="checkbox peer" />
+                    <img
+                        loading="lazy"
+                        src="public/assets/projects/Group 2.png"
+                        alt="Project Image"
+                        class="project-img"
+                    />
+                    <div class="hover peer-checked:z-20">
+                        <a
+                            href="https://yesprint.netlify.app/"
+                            target="_blank"
+                            class="live-site"
+                            >View demo</a
+                        >
+                        <a
+                            href="https://github.com/DarifElmehdi/yesprint"
+                            target="_blank"
+                            class="github-repo"
+                            >View github repo</a
+                        >
+                    </div>
+                    <h1 class="project-title">YESPRINT - 'Printshop'</h1>
+                    <div class="project-techs">
+                        <p class="project-tech">REACT</p>
+                        <p class="project-tech">HTML</p>
+                        <p class="project-tech">BOOTSTRAP</p>
+                        <p class="project-tech">NODE.JS</p>
+                    </div>
+                </div>
+                <!-- ANTICOVID -->
+                <div class="project-card">
+                    <img
+                        loading="lazy"
+                        src="public/assets/dots.svg"
+                        alt="Menu"
+                        class="dots"
+                    />
+                    <input type="checkbox" class="checkbox peer" />
+                    <img
+                        loading="lazy"
+                        src="public/assets/projects/Group 1.png"
+                        alt="Project Image"
+                        class="project-img"
+                    />
+                    <div class="hover peer-checked:z-20">
+                        <a
+                            href="https://anticovid.netlify.app/"
+                            target="_blank"
+                            class="live-site"
+                            >View demo</a
+                        >
+                        <a
+                            href="https://github.com/DarifElmehdi/anti-covid"
+                            target="_blank"
+                            class="github-repo"
+                            >View github repo</a
+                        >
+                    </div>
+                    <h1 class="project-title">ANTICOVID</h1>
+                    <div class="project-techs">
+                        <p class="project-tech">REACT</p>
+                        <p class="project-tech">HTML</p>
+                        <p class="project-tech">BOOTSTRAP</p>
+                        <p class="project-tech">PYTHON</p>
+                    </div>
+                </div>
+
+                <!-- TRAVELINGO -->
+                <div class="project-card">
+                    <img
+                        loading="lazy"
+                        src="public/assets/dots.svg"
+                        alt="Menu"
+                        class="dots"
+                    />
+                    <input type="checkbox" class="checkbox peer" />
+                    <img
+                        loading="lazy"
+                        src="public/assets/projects/Group 3.png"
+                        alt="Project Image"
+                        class="project-img"
+                    />
+                    <div class="hover peer-checked:z-20">
+                        <a
+                            href="https://travelingo.netlify.app/"
+                            target="_blank"
+                            class="live-site"
+                            >View demo</a
+                        >
+                        <a
+                            href="https://github.com/DarifElmehdi/Travelingo"
+                            target="_blank"
+                            class="github-repo"
+                            >View github repo</a
+                        >
+                    </div>
+                    <h1 class="project-title">TRAVELINGO - 'Landing page'</h1>
+                    <div class="project-techs">
+                        <p class="project-tech">HTML</p>
+                        <p class="project-tech">TAILWIND</p>
+                    </div>
+                </div>
+
+                <!-- TCHAT.IO -->
+                <div class="project-card">
+                    <img
+                        loading="lazy"
+                        src="public/assets/dots.svg"
+                        alt="Menu"
+                        class="dots"
+                    />
+                    <input type="checkbox" class="checkbox peer" />
+                    <img
+                        loading="lazy"
+                        src="public/assets/projects/Group 4.png"
+                        alt="Project Image"
+                        class="project-img"
+                    />
+                    <div class="hover peer-checked:z-20">
+                        <a
+                            href="http://chatioapp.netlify.com/"
+                            target="_blank"
+                            class="live-site"
+                            >View demo</a
+                        >
+                        <a
+                            href="https://github.com/DarifElmehdi/Chat.io"
+                            target="_blank"
+                            class="github-repo"
+                            >View github repo</a
+                        >
+                    </div>
+                    <h1 class="project-title">CHAT.IO - 'Landing page'</h1>
+                    <div class="project-techs">
+                        <p class="project-tech">HTML</p>
+                        <p class="project-tech">TAILWIND</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio -->
+                <div class="project-card">
+                    <img
+                        loading="lazy"
+                        src="public/assets/dots.svg"
+                        alt="Menu"
+                        class="dots"
+                    />
+                    <input type="checkbox" class="checkbox peer" />
+                    <img
+                        loading="lazy"
+                        src="public/assets/projects/Group 6.png"
+                        alt="Project Image"
+                        class="project-img"
+                    />
+                    <div class="hover peer-checked:z-20">
+                        <a
+                            href="https://darifelmehdi.netlify.app/"
+                            target="_blank"
+                            class="live-site"
+                            >View demo</a
+                        >
+                        <a href="" target="_blank" class="github-repo"
+                            >View github repo</a
+                        >
+                    </div>
+                    <h1 class="project-title">PORTFOLIO</h1>
+                    <div class="project-techs">
+                        <p class="project-tech">HTML</p>
+                        <p class="project-tech">TAILWIND</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact section -->
+        <div class="contact-section" id="contact">
+            <h1 class="section-title">Contact</h1>
+            <h1 class="info-name">You have a project in mind ?</h1>
+            <h1 class="info-job">Contact me !</h1>
+            <h1 class="info-name">elmehdi_darif@um5.ac.ma</h1>
+        </div>
+
+        <!--Footer section-->
+        <div class="footer">
+            <div class="social-net">
+                <a href="#" class="logo"> &#60;darif&#47;&#62; </a>
+                <div class="socials">
+                    <a href="https://github.com/DarifElmehdi" target="_blank"
+                        ><img
+                            loading="lazy"
+                            src="public/assets/social/github.png"
+                            alt="github"
+                            class="social"
+                    /></a>
+                    <a
+                        href="https://www.linkedin.com/in/darifelmehdi/"
+                        target="_blank"
+                        ><img
+                            loading="lazy"
+                            src="public/assets/social/linkedin.png"
+                            alt="linkedin"
+                            class="social"
+                    /></a>
+                    <a
+                        href="https://www.instagram.com/darif_mhd/"
+                        target="_blank"
+                        ><img
+                            loading="lazy"
+                            src="public/assets/social/instagram.png"
+                            alt="instagram"
+                            class="social"
+                    /></a>
+                    <a href="https://twitter.com/El_mehdi_DARIF" target="_blank"
+                        ><img
+                            loading="lazy"
+                            src="public/assets/social/twitter.png"
+                            alt="twitter"
+                            class="social"
+                    /></a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy;
+                <a href="https://github.com/DarifElmehdi" target="_blank"
+                    >Darif El Mehdi</a
+                >
+                - 2022
+            </div>
+        </div>
+        <img
+            loading="lazy"
+            src="public/assets/arrow.svg"
+            alt="arrow"
+            class="arrow hidden"
+            id="arrow"
+        />
+    </body>
+</html>

@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply m-0 p-10 px-4 md:px-12 lg:px-20 xl:px-60 bg-primary text-secondary relative;
+}
+
+html {
+    @apply scroll-smooth;
+}
+
+/* * {
+    @apply border-2 border-red-50;
+} */
+
+/*NavBar style*/
+.nav {
+    @apply flex items-center justify-between relative;
+}
+.logo {
+    @apply font-inter font-medium text-[28px] md:text-[32px];
+}
+
+.nav-list {
+    @apply hidden lg:flex items-center;
+}
+.nav-item {
+    @apply font-inter font-medium text-[22px] ml-8;
+}
+
+.menu,
+.x-menu {
+    @apply h-12 w-12 cursor-pointer absolute top-0 right-0 lg:hidden;
+}
+
+/* Hero section Style */
+.hero {
+    @apply min-h-screen flex flex-col-reverse lg:flex-row items-center justify-around lg:justify-between;
+}
+
+.hero-info {
+    @apply py-4;
+}
+
+.info-name {
+    @apply font-inter font-medium text-[20px] lg:text-[32px] mb-[24px];
+}
+.info-job {
+    @apply font-inter font-medium text-[24px] lg:text-[48px]  mb-[16px];
+}
+
+.info-description {
+    @apply font-inter font-normal text-[14px] lg:text-[18px] mb-[48px] max-w-xl;
+}
+
+.contact-me {
+    @apply font-inter font-medium text-primary text-[20px] px-4 py-2 bg-secondary rounded-full;
+}
+
+.section-title {
+    @apply font-inter font-medium text-[36px] my-20;
+}
+
+.pic-container {
+    @apply h-[400px] lg:h-[500px]   overflow-hidden rounded-full border-primary relative;
+}
+
+.profile-pic {
+    @apply h-full aspect-auto object-cover object-center;
+}
+
+.blure {
+    @apply h-32 w-full bg-gradient-to-t from-primary via-primary to-transparent absolute bottom-0;
+}
+
+/* Projects section style*/
+.projects-section {
+    @apply flex flex-col items-center justify-center w-full;
+}
+
+.projects-grid {
+    @apply grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-4 gap-y-8 min-h-screen w-full;
+}
+
+.project-card {
+    @apply flex flex-col items-start justify-start relative;
+}
+
+.project-img {
+    @apply w-full aspect-square z-10 peer-hover:opacity-100;
+}
+
+.hover {
+    @apply flex flex-col items-center justify-center z-0 w-full aspect-square bg-primary bg-opacity-50 absolute top-0;
+}
+
+.dots {
+    @apply cursor-pointer h-10 w-10 z-30 text-primary absolute top-2 right-2;
+}
+
+.checkbox {
+    @apply cursor-pointer h-10 w-10 z-50 opacity-0 text-primary absolute top-4 right-4;
+}
+
+.live-site {
+    @apply cursor-pointer font-inter font-medium text-[20px] bg-secondary text-primary px-4 py-2 mb-[24px] rounded-xl;
+}
+
+.github-repo {
+    @apply cursor-pointer font-inter font-medium text-[20px] text-secondary border-2 border-secondary px-4 py-2 rounded-xl;
+}
+
+.project-title {
+    @apply font-inter font-normal text-[20px] mt-[24px] mb-[13px];
+}
+
+.project-techs {
+    @apply w-full flex items-center justify-evenly;
+}
+
+.project-tech {
+    @apply font-inter font-normal text-[14px] px-2 py-1 border-2  border-secondary rounded-md;
+}
+
+/* Skills section style */
+
+.skills-section {
+    @apply flex flex-col items-center justify-center min-h-screen;
+}
+
+.skills {
+    @apply grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-x-4 gap-y-4 lg:gap-16 xl:gap-8 w-full;
+}
+.skill {
+    @apply flex flex-col items-center justify-evenly h-60;
+}
+
+.skill-name {
+    @apply font-inter font-normal text-secondary text-[16px];
+}
+
+.skill-logo {
+    @apply h-16 w-16;
+}
+/* Contact section style */
+
+.contact-section {
+    @apply w-full flex flex-col items-center justify-center min-h-screen;
+}
+
+/* Footer section style */
+.footer {
+    @apply w-full flex flex-col items-center justify-center;
+}
+
+.social-net {
+    @apply w-full lg:flex  items-center justify-between;
+}
+
+.socials {
+    @apply flex items-center justify-evenly lg:justify-between w-full lg:w-2/6 mt-10 lg:mt-0;
+}
+
+.social {
+    @apply h-10 aspect-square;
+}
+
+.copyright {
+    @apply font-inter font-normal text-[18px] text-secondary mt-12;
+}
+
+.arrow {
+    @apply h-12 w-12 cursor-pointer fixed bottom-8 right-8 z-50  border-2 border-secondary;
+}
