@@ -9,7 +9,13 @@
             href="public/assets/favicon.svg"
             type="image/x-icon"
         />
+        <link rel="manifest" href="" />
         <link rel="stylesheet" href="style.css" />
+        <style>
+            * {
+                -webkit-tap-highlight-color: transparent;
+            }
+        </style>
         <script src="index.js"></script>
         <title>Darif El Mehdi</title>
     </head>
@@ -22,10 +28,7 @@
                 <li><a href="#projects" class="nav-item">Projects</a></li>
                 <li><a href="#contact" class="nav-item">Contact</a></li>
             </ul>
-            <ul
-                class="w-full py-4 top-20 absolute flex-col items-center bg-primary bg-opacity-50 z-50 hidden"
-                id="nav-list"
-            >
+            <ul class="m-nav-list" id="nav-list">
                 <li class="my-4">
                     <a href="#skills" class="nav-item">Skills</a>
                 </li>
@@ -359,42 +362,6 @@
                         >
                     </div>
                     <h1 class="project-title">CHAT.IO - 'Landing page'</h1>
-                    <div class="project-techs">
-                        <p class="project-tech">HTML</p>
-                        <p class="project-tech">TAILWIND</p>
-                    </div>
-                </div>
-
-                <!-- Portfolio -->
-                <div class="project-card">
-                    <img
-                        loading="lazy"
-                        src="public/assets/dots.svg"
-                        alt="Menu"
-                        class="dots"
-                    />
-                    <input type="checkbox" class="checkbox peer" />
-                    <img
-                        loading="lazy"
-                        src="public/assets/projects/Group 6.png"
-                        alt="Project Image"
-                        class="project-img"
-                    />
-                    <div class="hover peer-checked:z-20">
-                        <a
-                            href="https://darifelmehdi.netlify.app/"
-                            target="_blank"
-                            class="live-site"
-                            >View demo</a
-                        >
-                        <a
-                            href="https://github.com/DarifElmehdi/darif-portfolio"
-                            target="_blank"
-                            class="github-repo"
-                            >View github repo</a
-                        >
-                    </div>
-                    <h1 class="project-title">PORTFOLIO</h1>
                     <div class="project-techs">
                         <p class="project-tech">HTML</p>
                         <p class="project-tech">TAILWIND</p>

@@ -12,9 +12,9 @@ html {
     @apply scroll-smooth;
 }
 
-/* * {
-    @apply border-2 border-red-50;
-} */
+* {
+    @apply outline-none;
+}
 
 /*NavBar style*/
 .nav {
@@ -27,6 +27,11 @@ html {
 .nav-list {
     @apply hidden lg:flex items-center;
 }
+
+.m-nav-list {
+    @apply w-3/6 py-4 top-16 right-0 absolute flex-col items-center z-50;
+}
+
 .nav-item {
     @apply font-inter font-medium text-[22px] ml-8;
 }
@@ -65,11 +70,11 @@ html {
 }
 
 .pic-container {
-    @apply h-[400px] lg:h-[500px]   overflow-hidden rounded-full border-primary relative;
+    @apply h-[400px] xl:h-[500px]  overflow-hidden rounded-full border-primary relative;
 }
 
 .profile-pic {
-    @apply h-full aspect-auto object-cover object-center;
+    @apply h-[400px] xl:h-[500px] aspect-auto object-cover object-center;
 }
 
 .blure {
@@ -82,7 +87,7 @@ html {
 }
 
 .projects-grid {
-    @apply grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-4 gap-y-8 min-h-screen w-full;
+    @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-4 gap-y-8 min-h-screen w-full;
 }
 
 .project-card {
@@ -132,7 +137,7 @@ html {
 }
 
 .skills {
-    @apply grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-x-4 gap-y-4 lg:gap-16 xl:gap-8 w-full;
+    @apply grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-x-4 gap-y-4 lg:gap-16 xl:gap-8 w-full;
 }
 .skill {
     @apply flex flex-col items-center justify-evenly h-60;
