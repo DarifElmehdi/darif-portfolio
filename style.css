@@ -470,6 +470,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.z-10{
+  z-index: 10;
+}
+
 .my-4{
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -487,8 +491,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+.aspect-square{
+  aspect-ratio: 1 / 1;
+}
+
+.w-full{
+  width: 100%;
+}
+
 .resize{
   resize: both;
+}
+
+.overflow-scroll{
+  overflow: scroll;
+}
+
+.overflow-y-scroll{
+  overflow-y: scroll;
 }
 
 body{
@@ -1011,6 +1031,16 @@ html{
   border-width: 2px;
   --tw-border-opacity: 1;
   border-color: rgb(249 245 255 / var(--tw-border-opacity));
+}
+
+.hover\:scroll-my-3\.5:hover{
+  scroll-margin-top: 0.875rem;
+  scroll-margin-bottom: 0.875rem;
+}
+
+.hover\:scroll-my-3:hover{
+  scroll-margin-top: 0.75rem;
+  scroll-margin-bottom: 0.75rem;
 }
 
 .peer:checked ~ .peer-checked\:z-20{
